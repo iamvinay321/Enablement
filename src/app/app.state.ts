@@ -1,4 +1,4 @@
-import { UserLoginState } from './auth/userlogin.reducer';
+import { UserLoginState } from './store/auth/userlogin.reducer';
 
 export interface AppState {
     readonly userInfo:UserLoginState
